@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo yum install -y httpd
+sudo systemctl start httpd
+echo $HOSTNAME >> /var/www/html/index.html

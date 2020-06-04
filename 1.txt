@@ -1,0 +1,13 @@
+Create VPC - Get VPC CIDR from user. = done
+Create Subnets - create /24 subnets. use cidr functions. = done
+Create EC2 and install httpd. = done
+Attach IAM instance role having S3 access to EC2. - use .tpl and rendered.
+Create Security Groups. = done
+Create NACL. = not needed as NACL will not block anything by default.
+Create ALB
+Configure AutoScaling
+
+make use of local tags. = done
+
+
+how to iterate over a list/tuple of string
